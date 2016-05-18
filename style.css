@@ -116,3 +116,49 @@ body{
 .codigo {
 	display: none;
 }
+h2 {
+	text-align: center;
+}
+.times-container {
+	width: 760px;
+	margin: 50px auto 0;
+}
+.time {
+	display: table;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+}
+.nome-time {
+	text-align: left;
+	font-size: 22px;
+	padding-left: 15px;
+	position: relative;
+}
+.nome-time img {
+	position: absolute;
+	cursor: pointer;
+}
+.nome-time img.remove {
+	top: -3px;
+	right: 5px;
+}
+.nome-time img.edit {
+	top: 0;
+	right: 42px;
+}
+.time .pokemon {
+	width: 16.6%;
+	display: table-cell;
+	text-align: center;
+}
+.time .pokemon .nome {
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+label {
+	display: inline-block;
+	width: 150px;
+}
